@@ -1,0 +1,38 @@
+{
+  "name": "postcss-neogrid",
+  "version": "1.1.0",
+  "description": "PostCSS plugin grid",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "grid"
+  ],
+  "author": "pepelxD <rfwp10@mail.ru>",
+  "license": "MIT",
+  "repository": "pepelxD/postcss-neoGrid",
+  "bugs": {
+    "url": "https://github.com/pepelxD/postcss-neoGrid/issues"
+  },
+  "homepage": "https://github.com/pepelxD/postcss-neoGrid",
+  "dependencies": {
+    "deepmerge": "^2.1.1",
+    "postcss": "^6.0.19"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^21.0.0",
+    "postcss-cli": "^5.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint ./test/test.js",
+    "start": "postcss test/input.css  -o test/output.css"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+
+.class {
+   border: 1px solid red;
+   media(480) {
+     border: none;
+   }
+   col-size: 4 only screen;
+   col: "";
+   col-size: 6;
+   col-size: 4 45em 60em;
+}
+.row {
+    row: "";
+}
+.vv {
+    wrapper: "";
+}

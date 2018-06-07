@@ -1,0 +1,35 @@
+
+.class {
+   border: 1px solid red;
+   margin-left: 1.25%;
+   margin-right: 1.25%;
+   width: calc(50.0000% - 30px);
+}
+.row {
+    margin-left: -1.25%;
+    margin-right: -1.25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vv {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media (max-width: 480px) {
+   .class {
+      border: none;
+   }
+}
+@media only screen {
+   .class {
+      width: calc(33.3333% - 30px);
+   }
+}
+@media (min-width: 45em) and (max-width: 60em) {
+   .class {
+      width: calc(33.3333% - 30px);
+   }
+}
